@@ -65,7 +65,7 @@ public class App {
         System.out.println("\nSpecial number = " + SpecialNumber.getThirdLargestNumber(list) + "\n");
 
         System.out.println("Insert parameter Z: ");
-        ReadConsoleInput.readDoubleWithOutZero(scanner);
+        ReadConsoleInput.readDouble(scanner);
 
         approximateNumber = SpecialNumber.getApproximateNumber(scanner.nextDouble());
         specialNumber = list.stream().min(Comparator.comparingDouble(i -> Math.abs(i - approximateNumber))).get();
