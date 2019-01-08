@@ -25,7 +25,7 @@ public class FirstNumber {
     private static final int MULTIPLICATION_PARAM_Y = 30;
     private static final int ADDITION_PARAM_X = 10;
     // Params related to calculateFirstNumber()
-    private static final int DIVISION_PARAM_X = 25;
+    private static final int DENOMINATOR = 25;
 
     private double calculatePartOne(double xParameter) {
         double result;
@@ -47,7 +47,7 @@ public class FirstNumber {
 
         double result;
 
-        result = (calculatePartOne(xParameter) + calculatePartTwo(xParameter)) / DIVISION_PARAM_X;
+        result = (calculatePartOne(xParameter) + calculatePartTwo(xParameter)) / DENOMINATOR;
 
         return result;
     }

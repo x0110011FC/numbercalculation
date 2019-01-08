@@ -62,7 +62,7 @@ public class SpecialNumberTest {
     public void getApproximateNumber() {
         assertEquals(1000, SpecialNumber.getApproximateNumber(1), 0);
         assertEquals(-1000, SpecialNumber.getApproximateNumber(-1), 0);
-        assertEquals(2000, SpecialNumber.getApproximateNumber(0.5), 0);
+        assertEquals(500, SpecialNumber.getApproximateNumber(2), 0);
         assertEquals(1, SpecialNumber.getApproximateNumber(1000), 0);
     }
 }
